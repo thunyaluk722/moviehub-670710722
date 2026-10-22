@@ -108,3 +108,4 @@ export function updateMovie(movieId, fields, token) {
 export function deleteMovie(movieId, token) {
   return apiFetch(`/api/admin/movies/${movieId}`, { method: 'DELETE', token });       // 204 ได้ null
 }
+
