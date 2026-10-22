@@ -46,3 +46,4 @@ export function ConfirmBox({ open, title, children, confirmText = 'ยืนย�
     </div>
   );
 }
+ 
